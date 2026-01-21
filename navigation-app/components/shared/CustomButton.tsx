@@ -2,7 +2,7 @@ import { Pressable, Text, type PressableProps } from "react-native";
 
 interface Props extends PressableProps {
   color?: "primary" | "secondary" | "tertiary";
-  textButton: string;
+  textButton?: string;
   variant?: "contained" | "text-only";
   className?: string;
 }
